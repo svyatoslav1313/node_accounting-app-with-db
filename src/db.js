@@ -21,7 +21,7 @@ const {
 */
 
 const sequelize = new Sequelize({
-  database: POSTGRES_DB || 'accouting_db',
+  database: POSTGRES_DB || 'accounting_db',
   username: POSTGRES_USER || 'postgres',
   host: POSTGRES_HOST || 'localhost',
   dialect: 'postgres',
